@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --warna-pertama: #22191c;
+    --warna-kedua: #6a5051;
+    --warna-ketiga: #e2d9dc; 
+}
+*{
+    margin: 0; padding: 0;;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.navigasi{
+    background-color: #22191c;
+    color: var(--warna-ketiga);
+}
+body{
+    background-color: var(--warna-ketiga);
+}
+.kontainer-1{
+    width: 100%;
+    display: flex;
+    color: var(--warna-ketiga);
+    height: 700px;
+}
+.kontainer-1 h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.kontainer-1 h2{
+    font-size: 28px;
+}
+.kontainer-1 p{
+    font-size: 16px;
+}
+.section1{
+    width: 70%;
+    position: relative;
+    margin-right: 10px;
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+}
+.desk-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 240px;
+    padding-left: 100px;
+}
+.desk-1 a{
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+    border: 2px solid var(--warna-ketiga);
+    transition: 0.2s linear;
+}
+.desk-1 a:hover{
+    background-color: var(--warna-ketiga);
+    color: #22191c;
+}
+.kontainer-2{
+    display: inline-block;
+    height: 700px;
+    width: 30%;
+    margin-right: 10px;
+}
+.section2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.section2 img{
+    width: 300px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.section3 img{
+    width: 100%;
+    height: 100%;
+}
+.section3{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.desk-2, .desk-3{
+    padding-left: 50px;
+    padding-top: 100px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.desk-1 h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.desk-2 h2, .desk-3 h2{
+    font-weight: 700;
+}
+.desk-2 a{
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+    border: 2px solid var(--warna-ketiga);
+    transition: 0.2s linear;
+}
+.desk-2 a:hover{
+    background-color: var(--warna-ketiga);
+    color: var(--warna-pertama);
+}
+/* PRODUCT */
+
+.kontainer-produk {
+    margin: 30px 100px;
+    background-color: var(--warna-ketiga);
+
+}
+.kartu-produk{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    margin: 10px 5px;
+    flex-grow: 1;
+    flex-basis: 250px;
+    display: none;
+}
+.kartu-produk img{
+    width: 150px;
+    margin-top: 10px;
+    transition: 0.2s linear;
+    filter: drop-shadow(5px 5px 10px black);
+    margin-bottom: 10px;
+}
+.kartu-produk img:hover{
+    transform: scale(1.1);
+}
+.desk-produk h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.load-more{
+    padding: 3px 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: var(--warna-pertama);
+    color: var(--warna-ketiga);
+    transition: 0.2s linear;
+}
+.load-more:hover{
+    background-color: var(--warna-ketiga);
+    color: var(--warna-pertama);
+}
+
+
+/* PROMO */
+
+.kontainer-promo{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.promo1{
+    background:linear-gradient(to right, #22191c, #3f2f30);
+    width: 50%;
+    display: flex;
+    margin-right: 5px;
+}
+
+.desk-promo{
+    width: 50%;
+    color: var(--warna-ketiga);
+    padding-top: 160px;
+    padding-left: 40px;
+}
+.desk-promo h2{
+    font-size: 32px;
+    color: #a7999e;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.desk-promo a{
+    text-decoration: none;
+    border: 1px solid var(--warna-ketiga);
+    padding: 3px 15px;
+    color: #e2d9dc;
+    border-radius: 4px;
+    font-size: 13px;
+    transition: 0.2s linear;
+}
+.desk-promo a:hover{
+    background-color: var(--warna-ketiga);
+    color: var(--warna-pertama);
+}
+.promo2{
+    width: 50%;
+}
+.promo2 img{
+    width: 100%;
+    height: 100%;
+}
+/* Other */
+.kontainer-4{
+    margin-top: 10px;
+    padding: 30px 100px;
+    background-color: var(--warna-pertama);
+    color: var(--warna-ketiga);
+}
+.other-produk{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    margin: 10px 5px;
+    flex-grow: 1;
+    flex-basis: 250px;
+}
+.other-produk img{
+    width: 150px;
+    margin-top: 5px;
+    transition: 0.2s linear;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    margin-top: 5px;
+    background-color: #291d21;
+    width: 100%;
+    padding: 0 100px;
+    color: var(--warna-ketiga);
+    font-size: 12px;
+    padding-top: 20px;
+}
+footer h1{
+    font-size: 20px;
+}
+.fadisa{
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.bungkus1, .bungkus2{
+    width: 50%;
+    display: flex;
+}
+.latest-news{
+    width: 50%;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.latest-news .desk-news{
+    display: flex;    
+}
+.desk-news p{
+    padding-left: 10px;
+}
+.social-media{
+    height: 100%;
+    width: 50%;
+    margin-right: 20px;
+}
+.icon p{
+    display: flex;
+    align-items: center;
+}
+.social-media .icon{
+    padding: 3px 7px;
+    display: flex;
+    background-color: #3f2f30;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+}
+.social-media p{
+    padding: 15px 0 0 6px;
+}
+.social-media .icon img{
+    width: 20px;
+}
+.pesan{
+    width: 50%;
+}
+
+@media screen and (max-width:540px) {
+    .kontainer-1 {
+        display: inline-block;
+        margin-top: 0;
+    }
+    .section1 {
+        width: 100%;
+    }
+    .desk-1 {
+        padding-top: 200px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .desk-1 a{
+        font-size: 10px;
+    }
+    .kontainer-1 h2{
+        font-size: 18px;
+    }
+    .kontainer-1 h3{
+        font-size: 16px;
+    }
+    .kontainer-1 p{
+        font-size: 12px;
+    }
+    .kontainer-2{
+        margin-top: 5px;
+        display: flex;
+        height: 400px;
+        width: 100%;
+    }
+    .section2{
+        width: 50%;
+        height: 50%;
+        margin-right: 5px;
+    }
+    .section3{
+        width: 50%;
+        height: 50%;
+    }
+    .desk-2, .desk-3{
+        padding-top: 50px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .desk-2 a{
+        font-size: 10px;
+    }
+    .section2 img{
+        width: 200px;
+        height: 200px;
+    }
+    .kontainer-produk{
+        margin: 30px 0px;
+    }
+    .kartu-produk img{
+        width: 100px;
+    }
+    .kartu-produk{
+        flex-grow: 1;
+        flex-basis: 150px;
+    }
+    .desk-produk h2{
+        font-size: 14px;
+    }
+    .desk-produk p{
+        font-size: 12px;
+    }
+    .kontainer-promo{
+        display: inline-block;
+        margin-bottom: 200px;
+    }
+    .promo1{
+        height: 300px;
+        width: 100%;
+    }
+    .desk-promo{
+        padding: 70px 0 0 10px;
+    }
+    .desk-promo h2{
+        font-size: 16px;
+    }
+    .desk-promo p{
+        font-size: 10px;
+    }
+    .desk-promo a{
+        font-size: 12px;
+    }
+    .promo2{
+        width: 100%;
+        height: 300px;
+    }
+    .kontainer-4{
+        padding: 30px 0px;
+    }
+    .other-produk img{
+        width: 100px;
+    }
+    .other-produk{
+        flex-grow: 1;
+        flex-basis: 150px;
+    }
+    footer{
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .bungkus1{
+        width: 100%;
+        display: flex;
+    }
+    .fadisa{
+        width: 50%;
+    }
+    .latest-news {
+        width: 50%;
+        font-size: 10px;
+    }
+    .bungkus2{
+        width: 100%;
+        display: flex;
+    }
+    .social-media{
+        width: 50%;
+    }
+    .pesan{
+        width: 50%;
+    }
+}
